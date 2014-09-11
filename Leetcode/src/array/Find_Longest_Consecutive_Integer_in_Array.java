@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Find_Longest_Consecutive_Integer_in_Array {
+	// Solution 1:
 	public int findLonestConsequence(int[] array) {
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 		int max = 1;
